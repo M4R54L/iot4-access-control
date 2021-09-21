@@ -1,0 +1,26 @@
+@import '../../../style/variables';
+
+.button {
+  height: $small-round-button-size;
+  width: $small-round-button-size;
+  border-radius: 50%;
+  background-color: $new-button-color;
+  margin: 0 auto;
+  transform: translateY(-40px);
+  border: 8px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 10;
+  position: absolute;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $button-hover-color;
+  }
+}

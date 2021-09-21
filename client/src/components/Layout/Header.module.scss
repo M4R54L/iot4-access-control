@@ -1,0 +1,14 @@
+@import '../../style/variables';
+
+.container {
+  height: $header-height;
+  background-color: $title-background-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: $header-text-size;
+  color: $title-font-color;
+}

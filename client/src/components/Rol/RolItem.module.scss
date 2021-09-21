@@ -1,0 +1,12 @@
+@import '../../style/variables';
+
+.item {
+  margin: 0.3rem 1rem;
+  background-color: $list-item-background-color;
+  padding: 1rem;
+  border-radius: 8px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

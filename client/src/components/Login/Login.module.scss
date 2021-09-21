@@ -1,0 +1,93 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../images/Login.jpg');
+  background-size: cover;
+}
+
+.loginTitle {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  color: #f5f5f5;
+  & p {
+    margin: 1rem;
+  }
+}
+
+.controls {
+  display: flex;
+  height: 70%;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.form {
+  display: flex;
+  background-color: #d4d2d5;
+  border-radius: 8px;
+  height: 300px;
+  width: 250px;
+  flex-direction: column;
+  & h1 {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  & input[type='submit'] {
+    background-color: #005252;
+    margin: 0.5rem;
+    height: 3rem;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    border-radius: 7px;
+  }
+}
+
+.formGroup {
+  display: flex;
+  margin: 0.8rem;
+  flex-direction: column;
+  & label {
+    margin: 0.3rem 0;
+  }
+
+  & input {
+    font-size: 0.8rem;
+    text-indent: 8px;
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 40rem) {
+  .main {
+    flex-direction: row;
+  }
+
+  .loginTitle {
+    height: 100%;
+    width: 70%;
+  }
+
+  .controls {
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  .loginTitle {
+    color: rgb(34, 33, 33);
+  }
+}

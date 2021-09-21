@@ -1,0 +1,7 @@
+@import './variables';
+
+.errorMessage {
+  margin: 0.3rem 0;
+  color: $error-message-color;
+  text-align: center;
+}

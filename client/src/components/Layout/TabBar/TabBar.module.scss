@@ -1,0 +1,14 @@
+@import '../../../style/variables';
+
+.container {
+  height: $tabbar-height;
+  width: 100%;
+  background-color: $tab-bar-color;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
